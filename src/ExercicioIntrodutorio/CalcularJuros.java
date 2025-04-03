@@ -15,7 +15,7 @@ public class CalcularJuros {
         float[] valor = new float[parcelas];
 
 
-        System.out.println("Digite os valores, pode usar virgula");
+        System.out.println("Digite os valores das parcelas, pode usar virgula");
         for (int i = 0; i < valor.length; i++) {
             System.out.println((i + 1) + ": ");
             valor[i] = scanner.nextFloat();
